@@ -1,11 +1,8 @@
-//const numTab = document.getElementById('numTab');
-
-//Função para gerar a tabuada
-function gerarTabuada() {
-    var numTab = 5;
+function Tabuada() {
+    var numero = 5
 
     for (var i = 1; i <= 10; i++) {
-        var resultado = numTab * i;
-        console.log(numTab + " x " + i + " = " + resultado);
+        var resultado = numero * i
+        console.log(numero + " x " + i + " = " + resultado)
     }
 }
